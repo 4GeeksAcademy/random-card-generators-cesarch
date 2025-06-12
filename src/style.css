@@ -1,5 +1,11 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: #0a6c03;
+}
+
+.cuerpo-carta{
+    background: rgb(255, 255, 255);
+    width:400px; 
+    height:600px;
 }
