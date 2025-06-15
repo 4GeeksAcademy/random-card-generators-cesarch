@@ -16,7 +16,16 @@
   </head>
   <body>
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-  <div id="carta"></div>
+  <div class="container-fluid d-flex justify-content-center align-items-center vh-100">
+    <div id="carta" class="position-relative bg-white rounded shadow p-3" style="width: 300px; height: 400px;">
+      <p id="pintaCartaUp" class="position-absolute top-0 start-0 m-2"></p>
+      <h1 class="valor-carta d-flex justify-content-center align-items-center h-100 m-0"></h1>
+      <p id="pintaCartaDown" class="position-absolute bottom-0 end-0 m-2 rotate-180"></p>
+    </div>
+  </div>
+     <div class="container-fluid d-flex justify-content-center align-items-center">
+        <button id="generador-carta" button type="button" class="btn btn-primary">Click aqui para generar Carta</button>
+     </div>
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>
   </body>
